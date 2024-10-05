@@ -1,0 +1,35 @@
+Proposed Implementation - Project Scope
+
+Calendar Functionality: 
+    Display time blocks for specific activities and deadlines. 
+    Allow users to add, edit, and delete time blocks. 
+    
+    For each time block, users can specify: 
+        - Title 
+        - Type of Activity 
+        - Associated course/activity (if applicable) 
+        - Duration 
+
+Deadline Management: 
+    Enable users to add, edit, and delete task deadlines. 
+    
+    For each deadline, users will input: 
+        - Task name 
+        - Due date 
+        - Task complexity 
+
+Task Prioritization: 
+    Implement a sorting algorithm to prioritize tasks based on: 
+        - Deadline proximity 
+        - Task complexity 
+        - Other relevant metrics (to be determined) 
+
+User Interface: 
+    Provide an intuitive, easy-to-navigate calendar interface. 
+    Ensure smooth transitions between month, week, and day views. 
+    
+Data Persistence: 
+    Store user data securely to maintain task and deadline information across sessions. 
+
+Notification Pushes: 
+    Notifications pushed to user daily based on upcoming deadlines and activities 
